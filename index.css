@@ -1,0 +1,43 @@
+.box{
+    width: 150px;
+    height: 100px;
+    background-color:rgb(178,46,37);
+    border: 5px solid black;
+    display: inline-block;
+    margin: 30px;
+}
+.double{
+    border-style: double;
+}
+.dashed{
+    border-style: dashed;
+}
+.dotted{
+    border-style: dotted;
+}
+.none{
+    border-style: none;
+}
+p{
+    width: 400px;
+    height: 500px;
+    background-color: red;
+    color: white;
+    border-top: 15px solid rgb(35,74,251);
+    border-right: 15px solid rgb(128,128,128);
+    border-bottom:15px solid yellow ;
+    border-left: 15px solid green;
+    /* padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px; */
+    padding: 10px;
+    
+
+}
+.paragraph-box{
+    background-color: indigo;
+    padding: 25px;
+    display: inline-block;
+    margin: 30px;
+}
